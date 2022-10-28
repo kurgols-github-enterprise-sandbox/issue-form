@@ -13,16 +13,10 @@ body:
     id: role
     attributes:
       label: Role
-      description: Which onboarding roles does this suggestion apply to?
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
       options:
-        - label: accounts-support-specialists
-        - label: customer-reliability-engineers
-        - label: enterprise-support-engineers
-        - label: ghae-support-engineers
-        - label: premium-support-engineers
-        - label: support-contractors
-        - label: technical-support-engineers
-        required: true
+        - label: I agree to follow this project's Code of Conduct
+          required: true
   - type: dropdown
     id: browsers
     attributes:
