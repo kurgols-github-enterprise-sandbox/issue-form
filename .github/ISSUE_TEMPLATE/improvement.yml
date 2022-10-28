@@ -15,13 +15,13 @@ body:
       label: Role
       description: Which onboarding roles does this suggestion apply to?
       options:
-        - accounts-support-specialists
-        - customer-reliability-engineers
-        - enterprise-support-engineers
-        - ghae-support-engineers
-        - premium-support-engineers
-        - support-contractors
-        - technical-support-engineers
+        - label: accounts-support-specialists
+        - label: customer-reliability-engineers
+        - label: enterprise-support-engineers
+        - label: ghae-support-engineers
+        - label: premium-support-engineers
+        - label: support-contractors
+        - label: technical-support-engineers
         required: true
   - type: dropdown
     id: browsers
