@@ -15,6 +15,7 @@ body:
       label: Role
       description: Which roles does this suggestion apply to:
         - label: accounts-support-specialists
+          required: true
   - type: dropdown
     id: browsers
     attributes:
