@@ -1,6 +1,6 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
+name: Onboading Improvement
+description: Create an issue about existing onboarding content
+title: "[Improvement]: "
 labels: ["bug", "triage"]
 assignees:
   - octocat
@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to submit this suggestion!
   - type: input
     id: contact
     attributes:
@@ -26,14 +26,19 @@ body:
       value: "A bug happened!"
     validations:
       required: true
-  - type: dropdown
-    id: version
+  - type: checkboxes
+    id: role
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Role
+      description: Which onboarding roles does this suggestion apply to?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - accounts-support-specialists
+        - customer-reliability-engineers
+        - enterprise-support-engineers
+        - ghae-support-engineers
+        - premium-support-engineers
+        - support-contractors
+        - technical-support-engineers
     validations:
       required: true
   - type: dropdown
