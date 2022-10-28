@@ -22,8 +22,7 @@ body:
         - premium-support-engineers
         - support-contractors
         - technical-support-engineers
-    validations:
-      required: true
+        required: true
   - type: dropdown
     id: browsers
     attributes:
