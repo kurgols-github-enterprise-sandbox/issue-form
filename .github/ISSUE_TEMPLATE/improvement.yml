@@ -9,13 +9,14 @@ body:
     attributes:
       value: |
         Thanks for taking the time to submit this suggestion!
-  - type: checkboxes
-    id: role
-    attributes:
-      label: Role
-      description: Which roles does this suggestion apply to:
-        - label: accounts-support-specialists
-          required: true
+- type: checkboxes
+  id: role
+  attributes:
+    label: Which roles does this suggestion apply to?
+    description: You may select more than one.
+    options:
+      - label: Orange cat (required. Everyone likes orange cats.)
+      - label: **Black cat**
   - type: dropdown
     id: browsers
     attributes:
