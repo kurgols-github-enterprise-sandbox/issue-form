@@ -22,9 +22,3 @@ body:
         - label: Premium Support Engineers
         - label: Support Contractors
         - label: Technical Support Engineers
-- type: textarea
-  attributes:
-    label: What article(s) is affected?
-    description: Please link to the article(s) in the docs that you'd like to update.
-  validations:
-    required: true
