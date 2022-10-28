@@ -15,5 +15,10 @@ body:
       label: Role
       description: Which roles are affected?
       options:
-        - label: Premium Support Engineer
+        - label: Accounts Support Specialists
+        - label: Customer Reliability Engineers
+        - label: Enterprise Support Engineers
+        - label: GHAE Support Engineers
+        - label: Premium Support Engineers
         - label: Support Contractors
+        - label: Technical Support Engineers
