@@ -16,5 +16,4 @@ body:
       description: Which roles are affected?
       options:
         - label: Premium Support Engineer
-        labels: ["premium-support"]
         - label: Support Contractors
