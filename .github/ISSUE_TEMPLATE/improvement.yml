@@ -1,7 +1,7 @@
 name: Onboading Improvement
 description: Create an issue about existing onboarding content
 title: "[Improvement]: "
-labels: ["Enhancement"]
+labels: ["enhancement", "documentation"]
 body:
   - type: markdown
     attributes:
