@@ -15,12 +15,6 @@ body:
       label: Role
       description: Which roles does this suggestion apply to:
         - label: accounts-support-specialists
-        - label: customer-reliability-engineers
-        - label: enterprise-support-engineers
-        - label: ghae-support-engineers
-        - label: premium-support-engineers
-        - label: support-contractors
-        - label: technical-support-engineers
   - type: dropdown
     id: browsers
     attributes:
