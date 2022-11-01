@@ -9,13 +9,13 @@ body:
         
         Please apply the approprate labels to this issue, depending on the roles affected.
         
-        • Accounts Support Specialists: `accounts-support-specialist`
+        •   Accounts Support Specialists: `accounts-support-specialist`
         • Customer Reliability Engineers: `customer-reliability-engineers`
-        • Enterprise Support Engineers: `enterprise-support-engineers`
-        • GHAE Support Engineers: `ghae-support-engineers`
-        • Premium Support Engineers: `premium-support-engineers`
-        • Support Contractors: `support-contractors`
-        • Technical Support Engineers: `technical-support-engineers`
+        •   Enterprise Support Engineers: `enterprise-support-engineers`
+        •         GHAE Support Engineers: `ghae-support-engineers`
+        •      Premium Support Engineers: `premium-support-engineers`
+        •            Support Contractors: `support-contractors`
+        •    Technical Support Engineers: `technical-support-engineers`
   - type: textarea
     id: article
     attributes:
@@ -56,6 +56,6 @@ body:
     attributes:
       label: What is your buddies handle?
       description: |
-        If you are in the proces of onboarding, let us know your buddies handle?
+        If you are in the process of onboarding, let us know your buddies handle?
     validations:
       required: false
