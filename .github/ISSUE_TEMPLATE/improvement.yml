@@ -56,7 +56,6 @@ body:
       label: What is your handle?
       description: |
         If you're willing to work on the PR to address the improvement you have suggested, let us know your handle!
-      placeholder: 
     validations:
       required: false
   - type: textarea
@@ -65,6 +64,5 @@ body:
       label: What is your buddies handle?
       description: |
         If you are in the proces of onboarding, what is your buddies handle?
-      placeholder: |
     validations:
       required: false
