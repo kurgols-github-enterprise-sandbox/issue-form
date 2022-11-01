@@ -44,11 +44,11 @@ body:
         • Review your issue and confirm the changes listed here cover all affected areas of the docs. Then, they'll invite you to open a PR and give you guidance on how to do so! This is the quickest way to get things changed.
         • Triage to our backlog. We'll get to it as soon as we can.
         • If you are willing to work on the PR please include your buddies handle alongside your own.
-    options:
+      options:
         - Yes
         - No
-    validations:
-      required: true
+      validations:
+        required: true
   - type: textarea
     id: handle
     attributes:
