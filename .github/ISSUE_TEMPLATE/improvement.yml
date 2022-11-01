@@ -47,7 +47,7 @@ body:
         - "Yes"
         - "No"
     validations:
-      required: false        
+      required: true        
   - type: textarea
     id: handle
     attributes:
