@@ -9,17 +9,15 @@ body:
         
         Please apply the approprate labels to this issue, depending on the roles affected.
         
-        •   Accounts Support Specialists: `accounts-support-specialist`
-        • Customer Reliability Engineers: `customer-reliability-engineers`
-        •   Enterprise Support Engineers: `enterprise-support-engineers`
-        •         GHAE Support Engineers: `ghae-support-engineers`
-        •      Premium Support Engineers: `premium-support-engineers`
-        •            Support Contractors: `support-contractors`
-        •    Technical Support Engineers: `technical-support-engineers`
-        | Syntax      | Description |
-        | ----------- | ----------- |
-        | Header      | Title       |
-        | Paragraph   | Text        |
+        | Role                            | Label                            |
+        | ------------------------------- | -------------------------------- |
+        | Accounts Support Specialists.   | `accounts-support-specialist`    |
+        | Customer Reliability Engineerss | `customer-reliability-engineers` |
+        | Enterprise Support Engineers.   | `enterprise-support-engineers`.  |
+        | GHAE Support Engineers.         | `ghae-support-engineers`         |
+        | Premium Support Engineers       | `premium-support-engineers`      |
+        | Support Contractors             | `support-contractors`            |
+        | Technical Support Engineers     | `technical-support-engineers`    |
   - type: textarea
     id: article
     attributes:
