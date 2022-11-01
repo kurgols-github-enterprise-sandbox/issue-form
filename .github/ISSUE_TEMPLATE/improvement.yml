@@ -1,14 +1,14 @@
-name: Onboading Improvement
+name: Onboarding Improvement
 description: Create an issue about existing onboarding content
 title: "[Improvement]: "
-labels: "enhancement"
+labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to submit this suggestion!
   - type: checkboxes
-    id: terms
+    id: role
     attributes:
       label: Role
       description: Which role(s) is affected?
@@ -21,22 +21,26 @@ body:
         - label: Support Contractors
         - label: Technical Support Engineers
   - type: textarea
+    id: article
     attributes:
       label: What article(s) is affected?
-      description: Please link to the article(s) that you'd like to update (source files for the issue templates can be found in the in https://github.com/github/onboarder-next/ repository).
+      description: Please link to the article(s) that you'd like to update (source files for the issue templates can be found in the https://github.com/github/onboarder-next/ repository).
     validations:
       required: true
   - type: textarea
+    id: improvement
     attributes:
       label: What improvement(s) would you like to see?
       description: Please include as much detail as possible about any improvements or additions you would like to see made to this task. If you ran into issues following the existing material please detail exactly which steps you took and where you ran into difficulty.
     validations:
       required: true
   - type: textarea
+    id: willing
     attributes:
       label: Are you willing to open a PR to make this change? 
       description: |
         Based on your answer, the Octocat who triages this issue will do one of the following:
+
         • Review your issue and confirm the changes listed here cover all affected areas of the docs. Then, they'll invite you to open a PR and give you guidance on how to do so! This is the quickest way to get things changed.
         • Triage to our backlog. We'll get to it as soon as we can.
         • If you are willing to work on the PR please include your buddies handle alongside your own.
@@ -46,4 +50,21 @@ body:
         • Your buddies handle: 
     validations:
       required: true
-
+  - type: textarea
+    id: handle
+    attributes:
+      label: What is your handle?
+      description: |
+        If you're willing to work on the PR to address the improvement you have suggested, let us know your handle!
+      placeholder: 
+    validations:
+      required: false
+  - type: textarea
+    id: buddy
+    attributes:
+      label: What is your buddies handle?
+      description: |
+        If you are in the proces of onboarding, what is your buddies handle?
+      placeholder: |
+    validations:
+      required: false
