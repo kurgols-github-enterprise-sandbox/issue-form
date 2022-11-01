@@ -5,21 +5,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to submit this suggestion!
-  - type: checkboxes
-    id: role
-    attributes:
-      label: Role
-      description: Which role(s) is affected?
-      options:
-        - label: Accounts Support Specialists
-          id: accounts
-        - label: Customer Reliability Engineers
-        - label: Enterprise Support Engineers
-        - label: GHAE Support Engineers
-        - label: Premium Support Engineers
-        - label: Support Contractors
-        - label: Technical Support Engineers
+        Thanks for taking the time to submit this suggestion! Please apply the approprate labels to this issue, depending on the roles affected.
+        
+        • Accounts Support Specialists: `accounts-support-specialist`
+        • Customer Reliability Engineers: `customer-reliability-engineers`
+        • Enterprise Support Engineers: `enterprise-support-engineers`
+        • GHAE Support Engineers: `ghae-support-engineers`
+        • Premium Support Engineers: `premium-support-engineers`
+        • Support Contractors: `support-contractors`
+        • Technical Support Engineers: `technical-support-engineers`
   - type: textarea
     id: article
     attributes:
