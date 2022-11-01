@@ -45,8 +45,8 @@ body:
         • Triage to our backlog. We'll get to it as soon as we can.
         • If you are willing to work on the PR please include your buddies handle alongside your own.
     options:
-        - Yes
-        - No
+        - Willing
+        - Unwilling
     validations:
       required: true
   - type: textarea
