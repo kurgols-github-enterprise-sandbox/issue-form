@@ -16,6 +16,10 @@ body:
         •      Premium Support Engineers: `premium-support-engineers`
         •            Support Contractors: `support-contractors`
         •    Technical Support Engineers: `technical-support-engineers`
+        | Syntax      | Description |
+        | ----------- | ----------- |
+        | Header      | Title       |
+        | Paragraph   | Text        |
   - type: textarea
     id: article
     attributes:
