@@ -1,5 +1,6 @@
 name: Onboarding Improvement
 description: Create an issue about existing onboarding content
+labels: ["enhancement"]
 title: "[Improvement]: "
 body:
   - type: markdown
@@ -11,10 +12,10 @@ body:
         
         | Role                            | Label                            |
         | ------------------------------- | -------------------------------- |
-        | Accounts Support Specialists.   | `accounts-support-specialist`    |
-        | Customer Reliability Engineerss | `customer-reliability-engineers` |
-        | Enterprise Support Engineers.   | `enterprise-support-engineers`.  |
-        | GHAE Support Engineers.         | `ghae-support-engineers`         |
+        | Accounts Support Specialists    | `accounts-support-specialists`    |
+        | Customer Reliability Engineers  | `customer-reliability-engineers` |
+        | Enterprise Support Engineers    | `enterprise-support-engineers`  |
+        | GHAE Support Engineers          | `ghae-support-engineers`         |
         | Premium Support Engineers       | `premium-support-engineers`      |
         | Support Contractors             | `support-contractors`            |
         | Technical Support Engineers     | `technical-support-engineers`    |
@@ -61,3 +62,4 @@ body:
         If you are in the process of onboarding, let us know your buddies handle?
     validations:
       required: false
+
