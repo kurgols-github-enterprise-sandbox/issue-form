@@ -5,7 +5,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to submit this suggestion! Please apply the approprate labels to this issue, depending on the roles affected.
+        Thanks for taking the time to submit this suggestion! 
+        
+        Please apply the approprate labels to this issue, depending on the roles affected.
         
         • Accounts Support Specialists: `accounts-support-specialist`
         • Customer Reliability Engineers: `customer-reliability-engineers`
